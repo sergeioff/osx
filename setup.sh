@@ -38,3 +38,6 @@ brew install --cask quicklook-json quicklook-csv
 brew install --cask android-platform-tools
 brew install --cask serviio
 brew install terminal-notifier
+
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json suspicious-package
+xattr -d -r com.apple.quarantine ~/Library/QuickLook
