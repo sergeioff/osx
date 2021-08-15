@@ -29,8 +29,6 @@ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 
 compaudit | xargs chmod g-w,o-w
 
-git config --global credential.helper osxkeychain
-
 echo "Enter git user.name:"
 read NAME
 echo "Enter git user.email:"
