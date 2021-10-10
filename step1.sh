@@ -1,7 +1,7 @@
 #!/bin/bash
 
 . ~/.sdkman/bin/sdkman-init.sh
-sdk install java 16.0.1.hs-adpt
+sdk install java 17.0.0-oracle
 sdk install maven
 sdk install gradle
 sdk install scala
