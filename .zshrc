@@ -55,7 +55,6 @@ plugins=(
  # npm
  # nvm
  # yarn
- osx
  # pip
 )
 
