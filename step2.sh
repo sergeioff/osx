@@ -20,6 +20,6 @@ brew install --cask firefox google-chrome # google-chrome-canary
 
 brew install youtube-dl ffmpeg
 brew install --cask dash
-brew install --cask iina spotify # ace-link
+brew install --cask spotify vlc
 
 brew install --cask android-platform-tools
