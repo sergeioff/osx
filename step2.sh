@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sdk install java 20.0.1-oracle
+sdk install java 20.0.2-oracle
 sdk install maven
 sdk install gradle
 sdk install scala
