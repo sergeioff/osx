@@ -49,13 +49,15 @@ plugins=(
  sbt
  scala
  sdk
- # kubectl
- # helm
+ kubectl
+ helm
  adb # dependency: brew install --cask android-platform-tools
- # npm
- # nvm
- # yarn
- # pip
+ npm
+ nvm
+ yarn
+ pip
+ direnv
+ terraform
 )
 
 source $ZSH/oh-my-zsh.sh
