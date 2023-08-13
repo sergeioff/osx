@@ -1,5 +1,6 @@
 #!/bin/bash
 
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java 20.0.2-oracle
 sdk install maven
 sdk install gradle
