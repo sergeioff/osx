@@ -1,26 +1,25 @@
 #!/bin/bash
 
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install java 20.0.2-oracle
+sdk install java 21.0.1-oracle
 sdk install maven
 sdk install gradle
 sdk install scala
 sdk install sbt
-sdk install kotlin
 nvm install --lts node
 brew install --cask miniconda
 
 brew install wget autojump tree p7zip terminal-notifier
 brew install --cask rectangle intellij-idea-ce visual-studio-code postman pycharm-ce drawio dbeaver-community
-brew install podman # docker -> podman
+brew install podman # docker
     
 brew install --cask zoom
-brew install --cask lulu utm qbittorrent calibre # ngrok virtualbox
+brew install --cask lulu utm calibre
 
-brew install --cask firefox google-chrome # google-chrome-canary
+brew install --cask firefox
 
 brew install youtube-dl ffmpeg
 brew install --cask dash
-brew install --cask spotify vlc
+brew install --cask spotify vlc iina
 
 brew install --cask android-platform-tools
