@@ -18,7 +18,7 @@ brew install --cask lulu utm calibre
 
 brew install --cask firefox
 
-brew install youtube-dl ffmpeg
+brew install yt-dlp ffmpeg
 brew install --cask dash
 brew install --cask spotify vlc iina
 
