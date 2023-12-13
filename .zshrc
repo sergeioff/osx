@@ -35,29 +35,27 @@ COMPLETION_WAITING_DOTS="true"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(
- git
- autojump # dependency: brew install autojump
- bgnotify # dependency: brew install terminal-notifier
- # aws
- colored-man-pages
- docker
- docker-compose
- # gcloud
- gradle
- mvn
- safe-paste
- sbt
- scala
- sdk
- kubectl
- helm
- adb # dependency: brew install --cask android-platform-tools
- npm
- nvm
- yarn
- pip
- direnv
- terraform
+  autojump # dependency: brew install autojump
+  bgnotify # dependency: brew install terminal-notifier
+  # aws
+  colored-man-pages
+  podman
+  # gcloud
+  gradle
+  mvn
+  safe-paste
+  sbt
+  scala
+  sdk
+  kubectl
+  helm
+  adb # dependency: brew install --cask android-platform-tools
+  npm
+  nvm
+  yarn
+  pip
+  direnv
+  terraform
 )
 
 source $ZSH/oh-my-zsh.sh
