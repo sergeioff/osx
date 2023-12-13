@@ -23,3 +23,5 @@ brew install --cask dash
 brew install --cask spotify vlc iina
 
 brew install --cask android-platform-tools
+
+brew install ansible terraform
