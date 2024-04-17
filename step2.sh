@@ -1,7 +1,7 @@
 #!/bin/bash
 
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install java 21.0.1-oracle
+sdk install java 8.0.412-amzn
 sdk install maven
 sdk install gradle
 sdk install scala
