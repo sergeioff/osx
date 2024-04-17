@@ -9,9 +9,9 @@ sdk install sbt
 nvm install --lts node
 brew install --cask miniconda
 
-brew install wget autojump tree p7zip terminal-notifier
-brew install --cask rectangle intellij-idea-ce visual-studio-code postman pycharm-ce drawio dbeaver-community
-brew install podman # docker
+brew install wget autojump tree p7zip terminal-notifier jq direnv
+brew install --cask rectangle intellij-idea-ce visual-studio-code pycharm-ce drawio dbeaver-community # postman
+brew install docker # podman
     
 brew install --cask zoom
 brew install --cask lulu utm calibre
@@ -19,9 +19,7 @@ brew install --cask lulu utm calibre
 brew install --cask firefox
 
 brew install yt-dlp ffmpeg
-brew install --cask dash
-brew install --cask spotify vlc iina
-
-brew install --cask android-platform-tools
+# brew install --cask dash
+brew install --cask spotify vlc # iina
 
 brew install ansible terraform
